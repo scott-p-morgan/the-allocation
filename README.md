@@ -11,7 +11,15 @@ We welcome contributions! Here's how you can help:
 1. Create a new file in the `_posts` directory with the format: `YYYY-MM-DD-title.md`
 2. Add the required front matter:
 
+```yaml
+---
+layout: post
+title: "Your Post Title"
+date: YYYY-MM-DD
+categories: [relevant, categories]
+---
 ```
+
 3. Write your post content using Markdown
 4. Submit a Pull Request
 
