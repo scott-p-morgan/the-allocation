@@ -54,4 +54,44 @@ body {
     color: #666;
     margin-left: 0.5rem;
   }
+}
+
+// Contributors section
+.contributors {
+  margin-top: 3rem;
+}
+
+.contributor {
+  display: flex;
+  align-items: start;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+}
+
+.contributor-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contributor-info {
+  flex: 1;
+  
+  h3 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  p {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .contributor-link {
+    color: #666;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 } 
