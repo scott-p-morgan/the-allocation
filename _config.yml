@@ -2,5 +2,6 @@ title: The Allocation
 theme: minima
 header_pages:
   - about.md
+  - posts.md
 sass:
     style: compressed
