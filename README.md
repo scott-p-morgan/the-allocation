@@ -1,57 +1,43 @@
-<header>
+# The Allocation
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+The Allocation is an open-source resource for FinTech product, engineering, and strategy. We focus on how AI can be used to build better products and improve the feedback loop between product and engineering, especially in the more esoteric parts of FinTech.
 
-# GitHub Pages
+## Contributing
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+We welcome contributions! Here's how you can help:
 
-</header>
+### Adding a New Post
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+1. Create a new file in the `_posts` directory with the format: `YYYY-MM-DD-title.md`
+2. Add the required front matter:
 
-## Finish
+```
+3. Write your post content using Markdown
+4. Submit a Pull Request
 
-_Congratulations friend, you've completed this course!_
+### Post Guidelines
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+- Posts should be relevant to FinTech, AI, product development, or engineering
+- Use clear, concise language
+- Include code examples where relevant
+- Add images in the `assets/images` directory if needed
 
-Your blog is now live and has been deployed!
+### Technical Setup
 
-Here's a recap of all the tasks you've accomplished in your repository:
+This site uses Jekyll, a static site generator. To run locally:
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+1. Install Ruby and Jekyll ([Jekyll Installation Guide](https://jekyllrb.com/docs/installation/))
+2. Clone this repo
+3. Run `bundle install`
+4. Run `bundle exec jekyll serve`
+5. Visit `http://localhost:4000`
 
-### What's next?
+## Resources
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub Pull Request Guide](https://docs.github.com/en/pull-requests)
 
-<footer>
+## License
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+This project is open source under the [MIT license](LICENSE).
