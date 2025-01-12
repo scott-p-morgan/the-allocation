@@ -16,7 +16,7 @@ We encourage you to contribute to the Allocation. You can get started by opening
     <img src="../assets/images/scott.jpg" alt="Scott Morgan" class="contributor-image">
     <div class="contributor-info">
       <h3>Scott Morgan</h3>
-      <p>Scott is an experienced Product Manager and former CTO, speciialzing in investment analytics and payments. He holds a B.S. in Statistics and Mathematics from the University of North Carolina, a Master's in Computer Science from Rice University, and an MBA from the MIT Sloan School of Management.  </p>
+      <p>Scott is an experienced Product Manager and former CTO, specialzing in investment analytics and payments. He holds a B.S. in Statistics and Mathematics from the University of North Carolina, a Master's in Computer Science from Rice University, and an MBA from the MIT Sloan School of Management.  </p>
       <a href="https://www.linkedin.com/in/scott-morgan-418390104/" class="contributor-link">Connect on LinkedIn →</a>
     </div>
   </div>
