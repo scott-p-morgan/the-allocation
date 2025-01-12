@@ -30,21 +30,16 @@ layout: default
     <!-- Categories Section -->
     <h2 class="post-list-heading">Browse by Category</h2>
     <div class="category-list">
-      {% assign categories = site.categories | sort %}
-      {% for category in categories %}
-        {% assign category_name = category[0] %}
+      {% for category in site.categories %}
         <div class="category-section">
-          <h3>{{ category_name | capitalize }}</h3>
+          <h3>{{ category[0] | capitalize }}</h3>
           <ul>
-            {% for post in site.categories[category_name] limit:5 %}
+            {% for post in category[1] limit:5 %}
               <li>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
               </li>
             {% endfor %}
-            {% if site.categories[category_name].size > 5 %}
-              <li><a href="/category/{{ category_name }}">See all...</a></li>
-            {% endif %}
           </ul>
         </div>
       {% endfor %}
